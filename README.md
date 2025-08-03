@@ -194,20 +194,6 @@ style AIService fill:#dcd0ff,stroke:#333
   <img src="docs/dark.png" alt="Dark Mode" width="100%">
 </p>
 
-### Login & Register & Reset Password
-
-<p align="center">
-  <img src="docs/login.png" alt="Login & Register" width="100%">
-</p>
-
-<p align="center">
-  <img src="docs/register.png" alt="Register" width="100%">
-</p>
-
-<p align="center">
-  <img src="docs/forgot.png" alt="Reset Password" width="100%">
-</p>
-
 ## 🗄 Database Schema
 
 As mentioned, Urlvy uses **PostgreSQL 15** with TypeORM for ORM. The schema is designed for performance and scalability, with UUIDs for primary keys and indexed foreign keys.
