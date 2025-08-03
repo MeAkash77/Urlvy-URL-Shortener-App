@@ -61,8 +61,7 @@
 16. [AWS Deployment](#-aws-deployment)
 17. [Contributing](#-contributing)
 18. [License](#-license)
-19. [Author](#-author)
-
+    
 ## 🪄 About Urlvy
 
 Urlvy is a **full-stack URL platform** that lets you:
