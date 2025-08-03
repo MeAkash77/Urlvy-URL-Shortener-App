@@ -253,12 +253,6 @@ You have 2 options to explore the API documentation:
 | POST   | `/urls/:slug/chat`    | AI chat on stats                        |
 | GET    | `/stats/global`       | aggregated stats for all links          |
 
-Headers: `Authorization: Bearer <token>`
-
-<p align="center">
-  <img src="docs/swagger.png" alt="Swagger UI" width="100%">
-</p>
-
 ## ☁️ Deployment Guide
 
 To deploy Urlvy, you have several options depending on your stack and preferences. Here are the recommended methods:
