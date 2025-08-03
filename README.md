@@ -225,7 +225,7 @@ Full DDL in `database/schema.sql`.
 ## 🚀 Getting Started
 
 ```bash
-git clone https://github.com/hoangsonww/Urlvy-URL-Shortener-App.git
+git clone https://github.com/MeAkash77/Urlvy-URL-Shortener-App.git
 cd Urlvy-URL-Shortener-App
 
 # ─── Backend ─────────────────────────────────────────────
@@ -456,22 +456,7 @@ Bug reports & feature requests are also welcomed via Issues. Feel free to open a
 
 ## 📄 License
 
-[MIT License](LICENSE) © 2025 Son Nguyen.
+[MIT License](LICENSE) © 2025 Akash.
 
 You can use Urlvy in your projects, commercial or non-commercial, as long as you include the original license and attribution.
 You must attribute the original author in your project documentation or README, regardless of whether you modify the code or not, and what you use it for.
-
-## 👨🏻‍💻 Author
-
-Made with ☕ and keyboard rage by **[Son Nguyen](https://sonnguyenhoang.com)** 😅. Feel free to reach out to me on the following platforms:
-
-- [GitHub](https://github.com/hoangsonww)
-- [LinkedIn](https://www.linkedin.com/in/hoangsonw)
-- [Email](mailto:hoangson091104@gmail.com)
-
-Alternatively, you can also open an issue on this repository if you have any questions or suggestions, or just drop a message in the Discussion tab.
-
----
-
-> [!NOTE]
-> “Build links that _talk back_.” – The Urlvy tagline
