@@ -83,7 +83,7 @@ Built for **growth hackers, product teams and indie makers** who need answers, n
 Urlvy is live and ready to use! Check it out:
 
 - **Frontend** – [https://urlvy-url-shortener-app-five.vercel.app/](https://urlvy-url-shortener-app-five.vercel.app/)
-- 
+
 Feel free to register with a throw-away address and play – no credit card, no limits during beta.
 
 > [!CAUTION]
