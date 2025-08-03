@@ -1,0 +1,38 @@
+version: '3.9'
+
+services:
+  urlvy-pg:
+    image: postgres:15
+    container_name: urlvy-pg
+    restart: unless-stopped
+    ports:
+      - '5432:5432'
+    environment:
+      POSTGRES_USER: urlvy
+      POSTGRES_PASSWORD: password
+      POSTGRES_DB: urlvydb
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+  backend:
+    build:
+      context: ./api
+    container_name: urlvy-backend
+    restart: unless-stopped
+    ports:
+      - '5000:5000'
+    depends_on:
+      - urlvy-pg
+    environment:
+      DATABASE_URL: postgres://urlvy:password@urlvy-pg:5432/urlvydb
+
+  frontend:
+    build:
+      context: ./web
+    container_name: urlvy-frontend
+    restart: unless-stopped
+    ports:
+      - '3000:3000'
+
+volumes:
+  pgdata:
